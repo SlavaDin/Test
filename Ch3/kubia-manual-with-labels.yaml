@@ -5,7 +5,7 @@ metadata:
   labels: 
     creation-method: manual
     env: prod
-specs:
+spec:
   containers: 
     image: slavadin/kubia
     name: kubia
