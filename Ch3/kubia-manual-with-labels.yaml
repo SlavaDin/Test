@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kubia-manual-v2
+  labels: 
+    creation-method: manual
+    env: prod
+specs:
+  containers: 
+    image: slavadin/kubia
+    
