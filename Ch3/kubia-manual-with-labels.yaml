@@ -8,4 +8,7 @@ metadata:
 specs:
   containers: 
     image: slavadin/kubia
-    
+    name: kubia
+    ports: 
+    - containerPort: 8080
+      protocol: TCP
