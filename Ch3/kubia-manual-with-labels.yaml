@@ -3,11 +3,11 @@ kind: Pod
 metadata:
   name: kubia-manual-v2
   labels: 
-    creation-method: manual
+    creation_method: manual
     env: prod
 spec:
   containers: 
-    image: slavadin/kubia
+  - image: slavadin/kubia
     name: kubia
     ports: 
     - containerPort: 8080
