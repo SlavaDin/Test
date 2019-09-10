@@ -13,4 +13,4 @@ spec:
       - name: kubia
         image: slavadin/kubia
         ports:
-        -containerPort: 8080
+        - containerPort: 8080
