@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matchLabels:
+    matchExpressions:
       - key: app
         operator: In
         values:
