@@ -17,5 +17,5 @@ spec:
   - name: html
     gitRepo:
       repository: https://github.com/slavadinov/kubia-website-example
-      revistion: master
+      revision: master
       directory: .
