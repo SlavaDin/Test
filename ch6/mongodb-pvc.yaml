@@ -6,6 +6,6 @@ metadata:
     resources:
       requests:
         storage: 1Gi
-  accessModes:
-  - ReadWriteOnce
-  storageClassName: ""
+    accessModes:
+    - ReadWriteOnce
+    storageClassName: ""
